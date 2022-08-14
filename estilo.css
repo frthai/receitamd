@@ -48,13 +48,14 @@
     justify-content: right;
     width: 170px;
     margin: 30px;
+    margin-left: 20px;
     align-items: baseline;
-    padding-bottom: 30px;
     margin-top: -30px;
 }
 .cabeçalho-dr{
     display: flex;
     margin-left: 30px;
+    margin-top: 10px;
     font-family: open Sans;
     font-size: 11px;
     color: #61c1d0;
@@ -104,6 +105,7 @@
 .conteudo-data {
     display: flex;
     margin-left: 40px;
+    margin-top: 100px;
     font-family: figtree;
     font-size: 13px;
     gap: 240px;
@@ -150,32 +152,31 @@
     border: #61c1d0 2px solid;
     margin-right: 1580px;
     margin-left: 30px;
-    margin-top: 30px;
-    height: 260px;
+    margin-top: 50px;
+    height: 200px;
 }    
 .rodape-nome {
     display: flex;
     margin-left: 10px;
+    margin-top: 5px;
     font-family: figtree;
     font-size: 13px;
-    gap: 240px;
     align-items: space-between;
     color: #61c1d0
 }
 .rodape-linha {
     display: flex;
     margin-left: 10px;
-    margin-top: -20;
-    margin-bottom: 10px;
+    margin-top: -10px;
     font-family: figtree;
-    font-size: 14px;
-    gap: 240px;
-    align-items: space-around;
+    font-size: 13px;
+    align-items: space-between;
     color: #61c1d0
 }
 .rodape-ident {
     display: flex;
     margin-left: 10px;
+    margin-top: 7px;
     font-family: figtree;
     font-size: 14px;
     gap: 240px;
@@ -185,6 +186,7 @@
 .rodape-ender {
     display: flex;
     margin-left: 10px;
+    margin-top: -12px;
     font-family: figtree;
     font-size: 14px;
     gap: 240px;
@@ -195,6 +197,7 @@
     display: flex;
     margin-left: 10px;
     margin-bottom: 10px;
+    margin-top: -12px;
     font-family: figtree;
     font-size: 14px;
     gap: 240px;
@@ -205,6 +208,7 @@
 .rodape-cidade-UF {
     display: flex;
     margin-left: 10px;
+    margin-top: -5px;
     font-family: figtree;
     font-size: 14px;
     gap: 240px;
@@ -214,6 +218,7 @@
 .rodape-fone {
     display: flex;
     margin-left: 10px;
+    margin-top: -12px;
     font-family: figtree;
     font-size: 14px;
     gap: 240px;
@@ -241,14 +246,14 @@
     border: #61c1d0 2px solid;
     margin-right: 1180px;
     margin-left: 420px;
-    margin-top: -260px;
-    height: 260px;
+    margin-top: -200px;
+    height: 200px;
     
 }
 .rodape-linha-ass {
     display: flex;
     margin-left: 10px;
-    margin-top: 180px;
+    margin-top: 120px;
     font-family: figtree;
     color: #61c1d0;
 }
