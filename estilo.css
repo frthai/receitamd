@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cabeçalho-receita{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content: center;
+    background-color: #61c1d0;
+    width: 700px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 30px;
+    font-family: figtree;
+    font-size: medium;
+    color: rgb(255, 255, 255)
+}
+.cabeçalho-retenção {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: left;
+    font-size: 14px;
+    font-family: figtree;
+    color: #61c1d0;
+    padding-left: 400px;
+
+}
+.cabeçalho-orientação {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: left;
+    align-items: baseline;
+    font-size: 14px;
+    font-family: figtree;
+    color: #61c1d0;
+    padding-left: 400px;
+
+}
+.cabeçalho-imagem {
+    display: flex;
+    flex-direction: initial;
+    justify-content: right;
+    width: 170px;
+    margin: 30px;
+    align-items: baseline;
+    padding-bottom: 30px;
+    margin-top: -30px;
+}
+.cabeçalho-dr{
+    display: flex;
+    margin-left: 30px;
+    font-family: open Sans;
+    font-size: 11px;
+    color: #61c1d0;
+}
+.cabeçalho-diretor {
+    display: flex;
+    margin-left: 30px;
+    font-family: open Sans;
+    font-size: 11px;
+    color: #61c1d0;
+}
+.cabeçalho-souza {
+    display: flex;
+    margin-left: 30px;
+    font-family: open Sans;
+    font-size: 11px;
+    color: #61c1d0;
+}
+.cabeçalho-cascaveles {
+    display: flex;
+    margin-left: 30px;
+    font-family: open Sans;
+    font-size: 11px;
+    color: #61c1d0
+}
+.conteudo-principal-paciente {
+    display: flex;
+    margin-left: 30px;
+    font-family: figtree;
+    font-size: 14px;
+    color: #61c1d0
+}
+.conteudo-principal-endereço {
+    display: flex;
+    margin-left: 30px;
+    font-family: figtree;
+    font-size: 14px;
+    color: #61c1d0
+}
+.conteudo-principal-prescrição {
+    display: flex;
+    margin-left: 30px;
+    font-family: figtree;
+    font-size: 14px;
+    color: #61c1d0
+}
+.conteudo-data {
+    display: flex;
+    margin-left: 40px;
+    font-family: figtree;
+    font-size: 13px;
+    gap: 240px;
+    align-items: space-between;
+    color: #61c1d0
+}
+.conteudo-linha {
+    display: flex;
+    margin-left: -20px;
+    font-family: open sans;
+    font-size: 16px;
+    margin-top: -10px;
+    gap: 240px;
+    align-items: flex-end;
+    color: #61c1d0
+}
+.conteudo-assinatura {
+    display: flex;
+    margin-left: 470px;
+    font-family: open sans;
+    font-size: 13px;
+    align-items: flex-end;
+    row-gap: 300px;
+    color: #61c1d0
+}
+
+.rodape-identificação-comprador {
+    background-color: #61c1d0;
+    display: flex;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -10px;
+    justify-content: center;
+    border: 4px;
+    height: 20px;
+    border-radius: 7px;
+    font-family: figtree;
+    font-size: 13px;
+    gap: 240px;
+    align-items: center;
+    color: white
+}
+.rodape{ 
+    border: #61c1d0 2px solid;
+    margin-right: 1580px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 260px;
+}    
+.rodape-nome {
+    display: flex;
+    margin-left: 10px;
+    font-family: figtree;
+    font-size: 13px;
+    gap: 240px;
+    align-items: space-between;
+    color: #61c1d0
+}
+.rodape-linha {
+    display: flex;
+    margin-left: 10px;
+    margin-top: -20;
+    margin-bottom: 10px;
+    font-family: figtree;
+    font-size: 14px;
+    gap: 240px;
+    align-items: space-around;
+    color: #61c1d0
+}
+.rodape-ident {
+    display: flex;
+    margin-left: 10px;
+    font-family: figtree;
+    font-size: 14px;
+    gap: 240px;
+    align-items: space-between;
+    color: #61c1d0
+}
+.rodape-ender {
+    display: flex;
+    margin-left: 10px;
+    font-family: figtree;
+    font-size: 14px;
+    gap: 240px;
+    align-items: space-between;
+    color: #61c1d0
+}
+.rodape-linha-endereço {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: figtree;
+    font-size: 14px;
+    gap: 240px;
+    align-items: space-between;
+    padding-top: -20px;
+    color: #61c1d0
+}
+.rodape-cidade-UF {
+    display: flex;
+    margin-left: 10px;
+    font-family: figtree;
+    font-size: 14px;
+    gap: 240px;
+    align-items: space-between;
+    color: #61c1d0
+}
+.rodape-fone {
+    display: flex;
+    margin-left: 10px;
+    font-family: figtree;
+    font-size: 14px;
+    gap: 240px;
+    align-items: space-between;
+    margin-bottom: 10px;
+    color: #61c1d0
+}
+.rodape-ident-fornecedor {
+    background-color: #61c1d0;
+    display: flex;
+    margin-top: -10px;
+    margin-left: -2px;
+    margin-right: -2px;
+    border-radius: 7px;
+    border: 4px;
+    justify-content: center;
+    height: 20px;
+    font-family: figtree;
+    font-size: 13px;
+    align-items: center;
+    color: white
+
+}
+.rodape-fornecedor {
+    border: #61c1d0 2px solid;
+    margin-right: 1180px;
+    margin-left: 420px;
+    margin-top: -260px;
+    height: 260px;
+    
+}
+.rodape-linha-ass {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 180px;
+    font-family: figtree;
+    color: #61c1d0;
+}
+.ass-farmaceutico {
+    display: flex;
+    margin-left: 15px;
+    margin-top: -10px;
+    font-size: 12px;
+    font-family: figtree;
+    color: #61c1d0;
+}
+.rodape-data{
+    display: flex;
+    margin-left: 225px;
+    margin-top: -15px;
+    font-size: 12px;
+    font-family: figtree;
+    color: #61c1d0;
+}
+
